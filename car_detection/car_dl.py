@@ -164,7 +164,7 @@ with torch.no_grad():
         tsamples += len(data)
 
 valid_acc = tcorrect / tsamples
-print("The Validation accuracy is = {:.2f}%".format(valid_acc * 100))
+print("Validation accuracy is = {:.2f}%".format(valid_acc * 100))
 
 
 # Loading the trained model
